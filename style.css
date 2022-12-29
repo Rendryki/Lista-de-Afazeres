@@ -116,8 +116,9 @@ li{
     border-width: 1px;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     body{
-        margin: 5px;
+        margin: auto;
+        width: 99%;
     }
 }

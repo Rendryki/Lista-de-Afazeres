@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- CSS externo -->
+    <link rel="shortcut icon" href="imagens/favicon lista.png" type="image/x-icon"> <!-- favicon lista -->
+    <title>Afazeres</title>
+</head>
+<body>
+
+    <main id="Conteudo">
+
+        <h1>Meus Afazeres</h1>
+
+        <section id="Gerador-Card"> <!-- gerador de card da lista -->
+
+            <input type="text" id="Card-Conteudo" maxlength="38"> <!-- area de texto para escrever tarefa -->
+            <input type="button" value="Criar" id="Card-Criar" onclick="criar_Card()"> <!-- botão para adcionar card -->
+
+        </section>
+
+        <section id="Card"> <!-- lista de cards -->
+
+            <ul id="Lista-Cards">
+            </ul>
+        
+        </section>
+
+        <input type="button" value="Limpar lista" onclick="remover_todos_Cards()" id="LimparBtn">
+
+    </main>
+
+    <script src="code.js"></script> <!-- JS externo -->
+     
+</body>
+</html>

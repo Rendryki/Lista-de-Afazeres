@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin-top: 5%;
+    background-color: #B4BEC9;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#Conteudo{
+    width: 500px;
+    background-color: #FFFFFF;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #159A9C;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#Card-Conteudo{
+    width: 70%;
+    padding: 2px 5px 5px 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.1em;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #159A9C;}
+
+#Card-Criar{
+    width: 14%;
+    padding: 5px;
+    background-color: #FFFFFF;
+    font-weight: 700;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #159A9C;
+    color: #159A9C;
+    font-weight: 700;
+}
+
+#Card-Criar:hover{
+    background-color: #159A9C;
+    color: #002333;
+    border-color: #002333;
+}
+
+ul{
+    list-style: none;
+    margin: 20px;
+}
+
+li{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #159A9C;
+    text-align: left;
+}
+
+#Card{
+    min-height: 300px;
+}
+
+#LimparBtn{
+    background-color: #159A9C;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #159A9C;
+    font-weight: 700;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#LimparBtn:hover{
+    color: #002333;
+    border-color: #002333;
+}
+
+.BotaoDeletarCard{
+    position: relative;
+    float: right;
+    margin: -5px;
+    padding: 7px 10px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #159A9C;
+    color: #159A9C;
+    font-weight: 700;
+}
+
+.BotaoDeletarCard:hover{
+    background-color: #ff6242;
+    color: #002333;
+    border-color: #002333;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+@media screen and (max-width: 400px){
+    body{
+        margin: 5px;
+    }
+}
